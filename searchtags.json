@@ -78,9 +78,9 @@
     },
     "contribute": {
       "type": "description",
-      "name": "Contribute to OpenBang",
+      "name": "Contribute to Open Search Tags",
       "searchUrls": {
-        "en": "https://github.com/openbang/bangs"
+        "en": "https://github.com/searchtags"
       }
     },
     "dafont": {

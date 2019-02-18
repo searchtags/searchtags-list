@@ -1,4 +1,4 @@
-Open Search Tags: List
+# Open Search Tags: List
 
 [![Build Status](https://travis-ci.org/searchtags/searchtags.svg?branch=master)](https://travis-ci.org/searchtags/searchtags)
 
