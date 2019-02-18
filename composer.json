@@ -1,0 +1,12 @@
+{
+    "name": "searchtags/list",
+    "description": "List of available tags/shortcuts of common used search engines",
+    "type": "library",
+    "license": "CC-BY-4.0",
+    "authors": [
+        {
+            "name": "Timon F",
+            "email": "dev@timonf.de"
+        }
+    ]
+}

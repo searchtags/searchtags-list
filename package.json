@@ -1,0 +1,32 @@
+{
+  "name": "searchtags-list",
+  "version": "0.1.0",
+  "description": "List of available tags/shortcuts of common used search engines",
+  "main": "index.js",
+  "license": "CC-BY-4.0",
+  "author": "Timon F. <dev@timonf.de>",
+  "files": [
+    "CC-BY-4.0",
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "schema.json",
+    "searchtags.json"
+  ],
+  "keywords": [
+    "open-search-tags",
+    "search-tags",
+    "shortcuts",
+    "productivity",
+    "duckduckgo-bangs",
+    "ecosia-searchtags",
+    "duckduckgo",
+    "ecosia"
+  ],
+  "devDependencies": {
+    "ajv-cli": "^3.0.0"
+  },
+  "scripts": {
+    "validate": "ajv -s schema.json -d searchtags.json"
+  }
+}
