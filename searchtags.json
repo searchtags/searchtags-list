@@ -35,10 +35,15 @@
     "gi": {"type": "alias", "reference": "googleimages"},
     "gm": {"type": "alias", "reference": "googlemaps"},
     "gn": {"type": "alias", "reference": "googlenews"},
+    "gt": {"type": "alias", "reference": "googletranslate"},
     "so": {"type": "alias", "reference": "stackoverflow"},
+    "tr": {"type": "alias", "reference": "googletranslate"},
+    "tw": {"type": "alias", "reference": "twitter"},
     "wa": {"type": "alias", "reference": "wolframalpha"},
     "yf": {"type": "alias", "reference": "yahoofinance"},
     "yt": {"type": "alias", "reference": "youtube"},
+    "ddg": {"type": "alias", "reference": "duckduckgo"},
+    "eco": {"type": "alias", "reference": "ecosia"},
     "9gag": {
       "type": "description",
       "name": "9GAG",
@@ -102,6 +107,16 @@
       "name": "DuckDuckGo",
       "searchUrls": {
         "en": "https://duckduckgo.com/?q={{s}}"
+      }
+    },
+    "ecosia": {
+      "type": "description",
+      "name": "Ecosia",
+      "searchUrls": {
+        "de": "https://www.ecosia.org/search?q={{s}}&l=de",
+        "en": "https://www.ecosia.org/search?q={{s}}",
+        "en_GB": "https://www.ecosia.org/search?q={{s}}&l=en&c=gb",
+        "en_US": "https://www.ecosia.org/search?q={{s}}&l=en&c=us"
       }
     },
     "ebay": {
@@ -168,6 +183,13 @@
         "en": "https://news.google.com/news/search/section/q/{{s}}?gl=US&ned=us&hl=en",
         "en_US": "https://news.google.com/news/search/section/q/{{s}}?gl=US&ned=us&hl=en",
         "en_GB": "https://news.google.com/news/search/section/q/{{s}}?gl=UK&ned=us&hl=en"
+      }
+    },
+    "googletranslate": {
+      "type": "description",
+      "name": "Google Translate",
+      "searchUrls": {
+        "en": "https://translate.google.com/?source=osdd#auto|auto|{{s}}"
       }
     },
     "giphy": {
