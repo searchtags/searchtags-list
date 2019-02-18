@@ -1,6 +1,6 @@
 {
-  "title": "OpenBang!",
-  "description": "Default definitions of OpenBang's search shortcuts",
+  "title": "Default Open Search Tags",
+  "description": "Default definitions of search shortcuts for \"Open Search Tags\".",
   "items": {
     "9": {"type": "alias", "reference": "9gag"},
     "a": {"type": "alias", "reference": "amazon"},
@@ -42,14 +42,14 @@
     "9gag": {
       "type": "description",
       "name": "9GAG",
-      "urls": {
+      "searchUrls": {
         "en": "https://9gag.com/search?query={{s}}"
       }
     },
     "amazon": {
       "type": "description",
       "name": "Amazon",
-      "urls": {
+      "searchUrls": {
         "de": "https://www.amazon.de/s?field-keywords={{s}}",
         "en": "https://www.amazon.com/s?field-keywords={{s}}",
         "en_US": "https://www.amazon.com/s?field-keywords={{s}}",
@@ -60,28 +60,28 @@
     "bing": {
       "type": "description",
       "name": "Bing",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.bing.com/search?q={{s}}"
       }
     },
     "bingmaps": {
       "type": "description",
       "name": "Bing Maps",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.bing.com/maps/?obox=1&q={{s}}"
       }
     },
     "contribute": {
       "type": "description",
       "name": "Contribute to OpenBang",
-      "urls": {
+      "searchUrls": {
         "en": "https://github.com/openbang/bangs"
       }
     },
     "dafont": {
       "type": "description",
       "name": "DaFont",
-      "urls": {
+      "searchUrls": {
         "de": "https://www.dafont.com/de/search.php?q={{s}}",
         "en": "https://www.dafont.com/search.php?q={{s}}",
         "es": "https://www.dafont.com/es/search.php?q={{s}}",
@@ -93,35 +93,35 @@
     "digg": {
       "type": "description",
       "name": "Digg",
-      "urls": {
+      "searchUrls": {
         "en": "http://digg.com/search?q={{s}}"
       }
     },
     "duckduckgo": {
       "type": "description",
       "name": "DuckDuckGo",
-      "urls": {
+      "searchUrls": {
         "en": "https://duckduckgo.com/?q={{s}}"
       }
     },
     "ebay": {
       "type": "description",
       "name": "eBay",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.ebay.com/sch/i.html?_nkw={{s}}&ssPageName=GSTL"
       }
     },
     "facebook": {
       "type": "description",
       "name": "Facebook",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.facebook.com/search/top/?q={{s}}"
       }
     },
     "firefoxaddons": {
       "type": "description",
       "name": "Firefox Addons",
-      "urls": {
+      "searchUrls": {
         "de": "https://addons.mozilla.org/de/firefox/search/?q={{s}}",
         "en": "https://addons.mozilla.org/en/firefox/search/?q={{s}}"
       }
@@ -129,42 +129,42 @@
     "flickr": {
       "type": "description",
       "name": "Flickr",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.flickr.com/search/?text={{s}}"
       }
     },
     "foursquare": {
       "type": "description",
       "name": "Foursquare",
-      "urls": {
+      "searchUrls": {
         "en": "https://foursquare.com/explore?q={{s}}"
       }
     },
     "google": {
       "type": "description",
       "name": "Google",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.google.com/search?hl=en&q={{s}}"
       }
     },
     "googleimages": {
       "type": "description",
       "name": "Google Images",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.google.com/search?tbm=isch&q={{s}}"
       }
     },
     "googlemaps": {
       "type": "description",
       "name": "Google Maps",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.google.com/maps?hl=en&q={{s}}"
       }
     },
     "googlenews": {
       "type": "description",
       "name": "Google News",
-      "urls": {
+      "searchUrls": {
         "en": "https://news.google.com/news/search/section/q/{{s}}?gl=US&ned=us&hl=en",
         "en_US": "https://news.google.com/news/search/section/q/{{s}}?gl=US&ned=us&hl=en",
         "en_GB": "https://news.google.com/news/search/section/q/{{s}}?gl=UK&ned=us&hl=en"
@@ -173,91 +173,91 @@
     "giphy": {
       "type": "description",
       "name": "Giphy",
-      "urls": {
+      "searchUrls": {
         "en": "https://9gag.com/search?query={{s}}"
       }
     },
     "github": {
       "type": "description",
       "name": "GitHub",
-      "urls": {
+      "searchUrls": {
         "en": "https://github.com/search?type=Everything&q={{s}}"
       }
     },
     "here": {
       "type": "description",
       "name": "Here Maps",
-      "urls": {
+      "searchUrls": {
         "en": "https://wego.here.com/search/{{s}}"
       }
     },
     "imdb": {
       "type": "description",
       "name": "IMDb - Movie Database",
-      "urls": {
+      "searchUrls": {
         "en": "http://www.imdb.com/find?s=all&q={{s}}"
       }
     },
     "instagram": {
       "type": "description",
       "name": "Instagram",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.instagram.com/explore/tags/{{s}}"
       }
     },
     "linkedin": {
       "type": "description",
       "name": "LinkedIn",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.linkedin.com/search/results/index/?keywords={s}}"
       }
     },
     "medium": {
       "type": "description",
       "name": "Medium",
-      "urls": {
+      "searchUrls": {
         "en": "https://medium.com/search?q={{s}}"
       }
     },
     "meetup": {
       "type": "description",
       "name": "Meetup",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.meetup.com/find/?keywords={{s}}"
       }
     },
     "netflix": {
       "type": "description",
       "name": "Netflix",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.netflix.com/search/{{s}}"
       }
     },
     "openstreetmap": {
       "type": "description",
       "name": "OpenStreetMap",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.openstreetmap.org/search?query={{s}}"
       }
     },
     "pexels": {
       "type": "description",
       "name": "Pexels",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.pexels.com/search/{{s}}"
       }
     },
     "pinterest": {
       "type": "description",
       "name": "Pinterest",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.pinterest.com/search/?q={{s}}"
       }
     },
     "quora": {
       "type": "description",
       "name": "Quora",
-      "urls": {
+      "searchUrls": {
         "de": "https://de.quora.com/search?q={{s}}",
         "en": "https://www.quora.com/search?q={{s}}",
         "es": "https://es.quora.com/search?q={{s}}",
@@ -267,7 +267,7 @@
     "rakuten": {
       "type": "description",
       "name": "Rakuten",
-      "urls": {
+      "searchUrls": {
         "de_DE": "https://www.rakuten.de/suchen/{{s}}/",
         "en_US": "https://www.rakuten.com/search/{{s}}/",
         "pt_BR": "https://www.rakuten.com.br/busca/{{s}}/0/",
@@ -278,84 +278,84 @@
     "reddit": {
       "type": "description",
       "name": "Reddit",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.reddit.com/search?q={{s}}"
       }
     },
     "slideshare": {
       "type": "description",
       "name": "SlideShare",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.slideshare.net/search/slideshow?searchfrom=header&q={{s}}"
       }
     },
     "soundcloud": {
       "type": "description",
       "name": "SoundCloud",
-      "urls": {
+      "searchUrls": {
         "en": "https://soundcloud.com/search?q={{s}}"
       }
     },
     "stackoverflow": {
       "type": "description",
       "name": "Stack Overflow",
-      "urls": {
+      "searchUrls": {
         "en": "https://stackoverflow.com/search?q={{s}}"
       }
     },
     "ticketmaster": {
       "type": "description",
       "name": "Ticketmaster",
-      "urls": {
+      "searchUrls": {
         "en_GB": "http://www.ticketmaster.co.uk/search?user_input={{s}}&q={{s}}"
       }
     },
     "tldr": {
       "type": "description",
       "name": "tldr Manual Pages",
-      "urls": {
+      "searchUrls": {
         "en": "https://tldr.ostera.io/{{s}}"
       }
     },
     "twitter": {
       "type": "description",
       "name": "Twitter",
-      "urls": {
+      "searchUrls": {
         "en": "https://twitter.com/search?q={{s}}"
       }
     },
     "unsplash": {
       "type": "description",
       "name": "Unsplash",
-      "urls": {
+      "searchUrls": {
         "en": "https://unsplash.com/search/photos/{{s}}"
       }
     },
     "viagogo": {
       "type": "description",
       "name": "viagogo",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.viagogo.com/search?q={{s}}"
       }
     },
     "vimeo": {
       "type": "description",
       "name": "Vimeo",
-      "urls": {
+      "searchUrls": {
         "en": "https://vimeo.com/search?q={{s}}"
       }
     },
     "vk": {
       "type": "description",
       "name": "VK",
-      "urls": {
+      "searchUrls": {
         "en": "https://vk.com/search?c[q]={{s}}&c[section]=auto"
       }
     },
     "wikipedia": {
       "type": "description",
       "name": "Wikipedia",
-      "urls": {
+      "searchUrls": {
         "de": "https://de.wikipedia.org/w/index.php?title=Special:Search&go=Go&search={{s}}",
         "en": "https://en.wikipedia.org/w/index.php?title=Special:Search&go=Go&search={{s}}",
         "es": "https://es.wikipedia.org/w/index.php?title=Special:Search&go=Go&search={{s}}",
@@ -367,21 +367,21 @@
     "wolframalpha": {
       "type": "description",
       "name": "WolframAlpha",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.wolframalpha.com/input/?i={{s}}"
       }
     },
     "xing": {
       "type": "description",
       "name": "Xing",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.xing.com/search/members?keywords={{s}}"
       }
     },
     "yahoo": {
       "type": "description",
       "name": "Yahoo!",
-      "urls": {
+      "searchUrls": {
         "de": "https://de.search.yahoo.com/search?p={{s}}",
         "en": "https://search.yahoo.com/search?p={{s}}",
         "es": "https://es.search.yahoo.com/search?p={{s}}",
@@ -393,21 +393,21 @@
     "yahoofinance": {
       "type": "description",
       "name": "Yahoo! Finance",
-      "urls": {
+      "searchUrls": {
         "de": "https://finance.yahoo.com/lookup?s={{s}}"
       }
     },
     "yelp": {
       "type": "description",
       "name": "Yelp",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.yelp.com/search?find_desc={{s}}&ns=1&rpp=10&find_loc="
       }
     },
     "youtube": {
       "type": "description",
       "name": "YouTube",
-      "urls": {
+      "searchUrls": {
         "en": "https://www.youtube.com/results?search_query={{s}}"
       }
     }

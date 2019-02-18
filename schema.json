@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "Schema for OpenBang definition file",
+  "title": "Schema for \"Open Search Tags\" definition file",
   "definitions": {
     "alias": {
       "properties": {
@@ -20,9 +20,9 @@
           "type": "string",
           "description": "Name of the specific search provider."
         },
-        "urls": {
+        "searchUrls": {
           "type": "object",
-          "description": "A list of URLs which must be assigned to a locale. Use \"en\" (English) as a default.",
+          "description": "A list of URLs which must be assigned to a locale. Use \"en\" (English) as a default. Use \"{{s}}\" as placeholder",
           "patternProperties": {
             "^[a-z]{2}(_[A-Z]{2})?$": {
               "type": "string"
