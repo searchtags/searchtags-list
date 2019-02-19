@@ -1,6 +1,6 @@
 # Open Search Tags: List
 
-[![Build Status](https://travis-ci.org/searchtags/searchtags.svg?branch=master)](https://travis-ci.org/searchtags/searchtags)
+[![Build Status](https://travis-ci.org/searchtags/searchtags-list.svg?branch=master)](https://travis-ci.org/searchtags/searchtags-list)
 
 This is a list of common used search engines (including aliases like "wa" for Wolfram Alpha).
 "Open Search Tags" is heavily inspired by [DuckDuckGo's bangs][1] and also [Ecosia's search tags][2].
